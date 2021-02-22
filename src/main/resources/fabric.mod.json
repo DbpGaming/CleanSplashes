@@ -22,14 +22,12 @@
       "io.github.jackowski626.cleansplashes.CleanSplashes"
     ]
   },
-  "mixins": [
-    "cleansplashes.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
 
-    "minecraft": "1.16.x"
+	"minecraft": "*",
+	"splashesapi": ">=1.0.1"
   },
   "suggests": {
     "another-mod": "*"
