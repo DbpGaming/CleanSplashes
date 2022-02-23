@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "cleansplashes",
   "version": "${version}",
 
   "name": "Clean Splashes",
@@ -14,7 +14,7 @@
   },
 
   "license": "GPLv3",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/cleansplashes/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -24,12 +24,9 @@
   },
 
   "depends": {
-    "fabricloader": ">=0.7.4",
+    "fabricloader": "*",
 
 	"minecraft": "*",
 	"splashesapi": ">=1.0.1"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
